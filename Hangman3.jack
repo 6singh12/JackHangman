@@ -1,0 +1,24 @@
+class Hangman3
+{
+   field String solution;
+   field String correctGuesses;
+   constructor Hangman3 new()
+   {
+      var String hangman,guesses;
+      var int i;
+      var int answerLength;
+      let hangman = "Juego3";
+      let guesses = "Intentos: ";
+      let i = 0;
+
+      let solution = "ESTUDIAR";
+      let correctGuesses = String.new(solution.length());
+      while(i < (solution.length()))
+      {
+         let correctGuesses = correctGuesses.appendChar(219);
+         let i = i+1;
+      }
+
+      return this;
+   }
+}

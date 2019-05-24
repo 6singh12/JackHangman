@@ -1,0 +1,104 @@
+class Main
+{
+   function void main()
+   {
+      var Hangman game;
+      var Hangman2 game2;
+      var Hangman3 game3;
+      var Hangman4 game4;
+      var Hangman5 game5;
+      var Hangman6 game6;
+      var Hangman7 game7;
+      var Hangman8 game8;
+      var Hangman9 game9;
+      var Hangman10 game10;
+
+      do Output.printString("Juego1");
+      let game = Hangman.new();
+      do game.run();
+      do game.dispose();
+
+      do Screen.clearScreen();
+      
+      //do Output.println();
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego2");
+      let game2 = Hangman2.new();
+      do game.run();
+      do game.dispose();
+
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego3");
+      do Output.println();
+      let game3 = Hangman3.new();
+      do game.run();
+      do game.dispose();
+
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego4");
+      do Output.println();
+      let game4 = Hangman4.new();
+      do game.run();
+      do game.dispose();
+      
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego5");
+      do Output.println();
+      let game5 = Hangman5.new();
+      do game.run();
+      do game.dispose();
+      
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego6");
+      do Output.println();
+      let game6 = Hangman6.new();
+      do game.run();
+      do game.dispose();
+      
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego7");
+      do Output.println();
+      let game7 = Hangman7.new();
+      do game.run();
+      do game.dispose();
+
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego8");
+      do Output.println();
+      let game8 = Hangman8.new();
+      do game.run();
+      do game.dispose();
+      
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego9");
+      do Output.println();
+      let game9 = Hangman9.new();
+      do game.run();
+      do game.dispose();
+
+      do Screen.clearScreen();
+      
+      do Output.moveCursor(0,0);
+      do Output.printString("Juego10");
+      do Output.println();
+      let game10 = Hangman10.new();
+      do game.run();
+      do game.dispose();
+      
+      return;
+   }
+}
